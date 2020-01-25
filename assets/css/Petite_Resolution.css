@@ -1,0 +1,101 @@
+/* photo petite résolution css */
+
+ body{
+	font-size:1.1em;
+	margin:10px;
+	padding:30px;
+  background: url("img/gris.jpg") no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+h2{
+	color:#070793;
+	font-size:2em;
+}
+.comp{
+	list-style-type:none;
+	font-weight: bold;
+}
+h1{
+	text-align:center;
+	font-size:3em;
+	color:#05235c;
+}
+#photo{
+	float:right;
+	margin-right:100px;	
+	margin-top:10px;
+	border:2px black outset;
+	box-shadow:6px 6px 3px #4f5a53;
+}
+.presentation{
+	border:solid 3px grey;
+	font-size:1.1em;
+	background-color:#e7eae8;
+	font-family:'Dayrom', verdana, serif;
+	font-weight:normal;
+	opacity:0.8;
+	color:#4f5a53;
+	min-height:50px;
+	height:100px;
+	overflow:scroll;
+}
+@font-face{
+	font-family : 'cac_champagneregular';
+	src: url('fonts/cac_champagne-webfont.ttf');
+	src: url('fonts/cac_champagne-webfont.woff')format('woff'),
+		 url('fonts/cac_champagne-webfont.ttf')format('truetype'),
+	     url('fonts/cac_champagne-webfont.eot?#iefix')format('embedded-opentype'),
+		 url('fonts/cac_champagne-webfont.svg#svgcac_champagneregular')format('svg');
+	}
+
+
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+em{
+	font-size:2em;
+	color:#2F4F4F;
+	font-family:'cac_champagneregular', verdana, serif;
+}
+#contact{
+	font-weight:bold;
+}
+
+#competences{
+	display:flex;
+	flex-direction:column;
+}
+
+section:nth-child(1){
+order :2;
+width:auto;
+}
+
+section:nth-child(2){
+order:3;
+width:auto;
+}
+
+section:nth-child(3){
+order:1;
+width:auto;
+}
+#bloc_page{
+	height:100%;
+	width:100%;
+	margin-left:10px;
+}
+
+#lisere{
+    display:none;
+}
+
