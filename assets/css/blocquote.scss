@@ -1,0 +1,9 @@
+
+
+blockquote {
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover {
+        transform: scale(1.10);
+    }
+}
