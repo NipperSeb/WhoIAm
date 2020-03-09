@@ -1,0 +1,32 @@
+/* index.css */
+/* Styles de base */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+
+body {
+  box-sizing: border-box;
+  font-family: 'Bitter', serif;
+  background-color: #e6f2ff;
+  color: #333; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+}
+
+img {
+  max-width: 100%; 
+ }
+
+ h1 {
+  margin-bottom: 40px;
+}
+h3 {
+ font-size : 2.5em;
+}

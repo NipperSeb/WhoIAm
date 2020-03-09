@@ -1,0 +1,22 @@
+{
+  "name": "whoiam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NipperSeb/whoIAm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NipperSeb/whoIAm/issues"
+  },
+  "homepage": "https://github.com/NipperSeb/whoIAm#readme"
+}
