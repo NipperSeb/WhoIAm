@@ -6,16 +6,12 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit; }
-   
-//e6f2ff 333 #ffe6e6 
+    
 body {
   box-sizing: border-box;
-  font-family: 'Bitter', serif;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  position: relative;
+  font-family: 'Roboto', sans-serif;
+  color: $colour-primary;
+  background: $colour-secondary;
 }
 img {
   max-width: 100%; 
@@ -23,7 +19,8 @@ img {
 
 
  h1 {
-  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
 }
 
 h3 {

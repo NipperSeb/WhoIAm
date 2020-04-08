@@ -1,0 +1,23 @@
+.navProject {
+    padding-right: $layout-margin;
+    flex: 2 1 auto;
+    text-align: right;
+    &__link {
+        display: inline;
+        font-size: 2rem;
+        padding-left: 2.5rem;
+        & a{
+        color: $colour-accent;
+        }
+        &--active {
+            color: $colour-secondary;
+            &:hover{
+                cursor:default;
+                color: $colour-secondary;
+            }
+        }
+        & a:hover{
+            color: $colour-white;
+        }
+    }
+}

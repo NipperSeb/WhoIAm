@@ -9,34 +9,122 @@
 
 body {
   box-sizing: border-box;
-  font-family: 'Bitter', serif;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  position: relative; }
+  font-family: 'Roboto', sans-serif;
+  color: #6198e9;
+  background: #001534; }
 
 img {
   max-width: 100%; }
 
 h1 {
-  margin-bottom: 40px; }
+  font-family: 'Roboto', sans-serif;
+  font-style: italic; }
 
 h3 {
   font-size: 2.5em; }
 
+/*@mixin btn {
+    padding: $grid-gutter;
+    @include border;
+    color: $colour-primary;
+    background: $colour-secondary;
+    cursor: pointer;
+    &:hover{
+        background: $colour-primary;
+        color: $colour-accent;
+    }
+    &--full-width {
+        width: 100%;
+        margin: 0 auto;
+    }
+}*/
 .carousel-inner > .item > img {
   margin: auto;
   width: 100%; }
 
 .jumbotron {
   margin-top: 40px;
-  background: rgba(255, 255, 255, 0.5); }
+  background: #6198e9; }
 
 .jumbotron img {
   padding-bottom: 20px; }
 
+.containerBalustrade {
+  margin: 6rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  border: 0.1rem solid #ced5e4; }
+
 footer.row {
   margin: 20px 0 40px 0; }
+
+.headerBalustrade {
+  background: #6198e9;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; }
+  .headerBalustrade__logo {
+    font-size: 4rem;
+    color: #001534;
+    margin-left: 5rem;
+    text-shadow: 0.3rem 0.3rem #fff; }
+
+.navProject {
+  padding-right: 6rem;
+  flex: 2 1 auto;
+  text-align: right; }
+  .navProject__link {
+    display: inline;
+    font-size: 2rem;
+    padding-left: 2.5rem; }
+    .navProject__link a {
+      color: #ced5e4; }
+    .navProject__link--active {
+      color: #001534; }
+      .navProject__link--active:hover {
+        cursor: default;
+        color: #001534; }
+    .navProject__link a:hover {
+      color: #fff; }
+
+.project {
+  width: 100%;
+  margin-bottom: 1.8rem;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 1.5rem;
+  grid-template-areas: "image synopsis" "tags synopsis"; }
+  .project__image {
+    grid-area: image;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative; }
+    .project__image img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100%;
+      transform: translate(-50%, -50%); }
+  .project__synopsis {
+    grid-area: synopsis;
+    padding-left: 1.5rem; }
+    .project__synopsis h1 {
+      color: #fff;
+      text-shadow: 0.3rem 0.3rem #347be3; }
+    .project__synopsis p {
+      line-height: 1.6rem;
+      color: #fff; }
+  .project__tags {
+    grid-area: tags;
+    font-size: 2rem; }
+    .project__tags p {
+      color: #fff; }
+      .project__tags p strong {
+        color: #6198e9;
+        font-weight: 900;
+        font-style: italic; }
 
 /*# sourceMappingURL=style.css.map */
